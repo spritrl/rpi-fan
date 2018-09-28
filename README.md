@@ -9,7 +9,7 @@ sudo apt-get update && sudo apt-get -y upgrade
 <br/>
 
 ### 2. Package :<br/>
-! IN /home/pi/ !
+Note : in /home/pi/ if you want to run the script in the background
 ```
 git clone https://github.com/spritrl/rpi-fan/
 ```
