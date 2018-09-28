@@ -36,3 +36,11 @@ sudo nano /etc/init.d/rpi-fan
  ### END INIT INFO
  sudo python /home/pi/fan/rpi-fan.py &
  ```
+ * Do :
+ ```
+sudo chmod +x /etc/init.d/rpi-fan
+ ```
+ * And :
+ ```
+sudo update-rc.d rpi-fan defaults
+ ```
