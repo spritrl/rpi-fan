@@ -44,3 +44,4 @@ sudo chmod +x /etc/init.d/rpi-fan
  ```
 sudo update-rc.d rpi-fan defaults
  ```
+# Reboot and Enjoy
