@@ -11,18 +11,16 @@
 <br/>
 sudo nano /etc/init.d/rpi-fan
 
-<code>
-#! /bin/sh
-### BEGIN INIT INFO
+<code>#! /bin/sh
+<code>### BEGIN INIT INFO
 
-# Provides: rpi-fan
-# Required-Start: $remote_fs $syslog
-# Required-Stop: $remote_fs $syslog
-# Default-Start: S
-# Default-Stop: 
-# Short-Description: RPI-FAN
-# Description: Fan automation on RPi with GPIO
+<code># Provides: rpi-fan
+<code># Required-Start: $remote_fs $syslog
+<code># Required-Stop: $remote_fs $syslog
+<code># Default-Start: S
+<code># Default-Stop: 
+<code># Short-Description: RPI-FAN
+<code># Description: Fan automation on RPi with GPIO
 
-### END INIT INFO
-sudo python /home/pi/fan/rpi-fan.py &
-</code>
+<code>### END INIT INFO
+sudo python /home/pi/fan/rpi-fan.py &</code>
