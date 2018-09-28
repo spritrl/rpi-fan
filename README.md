@@ -15,11 +15,11 @@ git clone https://github.com/spritrl/rpi-fan/
 <br/>
 
 3. To run the script in the background :
-Execute :
+##Execute :
 ```
 sudo nano /etc/init.d/rpi-fan
 ```
-Past :
+#Past :
 
  ```
  #! /bin/sh
