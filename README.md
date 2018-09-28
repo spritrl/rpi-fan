@@ -3,6 +3,9 @@
  
 # Installation
 1. Before : <br/>
- <br/><code>sudo apt-get update && sudo apt-get -y upgrade</code>
-2. Package :
+<code>sudo apt-get update && sudo apt-get -y upgrade</code>
+<br/>
+
+2. Package :<br/>
 <code>git clone https://github.com/spritrl/rpi-fan/</code>
+<br/>
