@@ -2,19 +2,19 @@
  Fan automation on RPi with GPIO
  
 # Installation
-1. Before : <br/>
+### 1. Before : <br/>
 ```
 sudo apt-get update && sudo apt-get -y upgrade
 ```
 <br/>
 
-2. Package :<br/>
+### 2. Package :<br/>
 ```
 git clone https://github.com/spritrl/rpi-fan/
 ```
 <br/>
 
-3. To run the script in the background :<br/>
+### 3. To run the script in the background :<br/>
 * Execute :
 ```
 sudo nano /etc/init.d/rpi-fan
