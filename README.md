@@ -25,5 +25,5 @@ sudo nano /etc/init.d/rpi-fan
 # Description: Fan automation on RPi with GPIO
 
 ### END INIT INFO
-sudo python /home/pi/fan/rpi-fan.py &</code>
+sudo python /home/pi/fan/rpi-fan.py &
 ```
