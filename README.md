@@ -13,10 +13,13 @@ sudo apt-get update && sudo apt-get -y upgrade
 git clone https://github.com/spritrl/rpi-fan/
 ```
 <br/>
+
+3. To run the script in the background :
+Execute :
 ```
 sudo nano /etc/init.d/rpi-fan
 ```
-
+Past :
 
  ```
  #! /bin/sh
