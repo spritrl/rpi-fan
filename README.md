@@ -10,6 +10,8 @@
 <code>git clone https://github.com/spritrl/rpi-fan/</code>
 <br/>
 sudo nano /etc/init.d/rpi-fan
+
+
 ```
 #! /bin/sh
 ### BEGIN INIT INFO
