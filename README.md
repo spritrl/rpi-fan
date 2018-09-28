@@ -9,3 +9,20 @@
 2. Package :<br/>
 <code>git clone https://github.com/spritrl/rpi-fan/</code>
 <br/>
+sudo nano /etc/init.d/rpi-fan
+
+<code>
+#! /bin/sh
+### BEGIN INIT INFO
+
+# Provides: rpi-fan
+# Required-Start: $remote_fs $syslog
+# Required-Stop: $remote_fs $syslog
+# Default-Start: S
+# Default-Stop: 
+# Short-Description: RPI-FAN
+# Description: Fan automation on RPi with GPIO
+
+### END INIT INFO
+sudo python /home/pi/fan/rpi-fan.py &
+</code>
