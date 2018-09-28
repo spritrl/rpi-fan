@@ -9,6 +9,7 @@ sudo apt-get update && sudo apt-get -y upgrade
 <br/>
 
 ### 2. Package :<br/>
+
 ```
 git clone https://github.com/spritrl/rpi-fan/
 ```
@@ -20,7 +21,7 @@ git clone https://github.com/spritrl/rpi-fan/
 sudo nano /etc/init.d/rpi-fan
 ```
 * Past :
-
+! IN /home/pi/ !
  ```
  #! /bin/sh
  ### BEGIN INIT INFO
@@ -34,7 +35,7 @@ sudo nano /etc/init.d/rpi-fan
  # Description: Fan automation on RPi with GPIO
 
  ### END INIT INFO
- sudo python /home/pi/fan/rpi-fan.py &
+ sudo python /home/pi/rpi-fan/rpi-fan.py &
  ```
  * Do :
  ```
