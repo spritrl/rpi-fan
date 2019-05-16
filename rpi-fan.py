@@ -1,6 +1,6 @@
 #!/usr/bin/env python
 # released under the GNU General Public License version 3.0 (GPLv3)
-# Spritrl - 28/09/2018 - FR
+# Spritrl - REALINI Christophe 28/09/2018 - FR
 
 import io 
 import RPi.GPIO as GPIO
